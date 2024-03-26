@@ -1,0 +1,56 @@
+.contenedor{
+    display: flex;
+    background-color: black;
+}
+
+
+.div-1{
+    background-color: black;
+    width: 40%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.div-2{
+    background-color: black;
+    width: 55%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    color: darkgrey;
+    
+
+}
+
+h2{
+    color: darkgrey;
+    margin-left: 40%;
+}
+
+a{
+    color: darkgrey;
+    font-size: small;
+    padding-left: 10px;
+    
+}
+
+h6 {
+    font-family: sans-serif;
+    font-style: oblique;
+    color: darkgrey;
+    font-size: small;
+    
+}
+
+.cv{
+    color: darkgrey;
+    padding-left: 40%;
+    background-color: black;
+    
+}
+
+ hr{
+    margin-left: 15%;
+    background-color: black;
+}

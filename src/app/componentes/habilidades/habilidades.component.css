@@ -1,0 +1,57 @@
+h1{
+    color: darkgray;
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: black;
+    
+}
+
+.caja1{
+    display:flex;
+}
+
+.caja2{
+    display:flex;
+}
+
+.graf1{
+    width: 40%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.graf2{
+    width: 40%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.graf3{
+    width: 40%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.graf4{
+    width: 40%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.graf5{
+    width: 40%;
+    padding: 1%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    
+}
+
+

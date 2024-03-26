@@ -1,0 +1,86 @@
+
+#header{
+    width: 100%;
+    background-color: black;
+}
+
+div div{
+    display: inline;
+}
+
+#logo{
+    margin-left: 1%;
+    margin-right: 30%;
+}
+
+.menu{
+    float: right;
+    padding-right: 10px;
+    background-color: black;
+    
+}
+
+.menu img{
+    float: right;
+}
+
+    
+.opciones li{
+    list-style: none;
+    padding-left: 1px;
+    display: none;
+}
+
+
+
+.opciones li a{
+    list-style: none;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+.opciones li a:hover{
+    background-color: #434343;
+}
+
+.menu:hover li{
+    display: block;
+}
+/*
+.opc{
+    list-style: none;
+    text-decoration: none;
+    color: darkgray;
+}
+
+ul{
+    list-style: none;
+}
+
+
+li a{
+    text-decoration: none;
+    color: darkgray;
+    display: block;
+}
+
+.opc li{
+    display: none;
+    position: relative;
+}
+
+li a:hover{
+    background-color: #434343;
+}
+
+.opc:hover li{
+    display: block;
+}
+*/
+    
+
+
+
+
