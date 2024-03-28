@@ -1,11 +1,15 @@
 .contenedor{
     display: flex;
-    background-color: black;
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
+    
 }
 
 
 .div-1{
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
     width: 40%;
     padding: 1%;
     margin-left: 2%;
@@ -13,7 +17,9 @@
 }
 
 .div-2{
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
     width: 55%;
     padding: 1%;
     margin-left: 2%;
@@ -46,11 +52,15 @@ h6 {
 .cv{
     color: darkgrey;
     padding-left: 40%;
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
     
 }
 
  hr{
     margin-left: 15%;
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
 }

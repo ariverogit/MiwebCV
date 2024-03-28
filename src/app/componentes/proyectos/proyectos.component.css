@@ -1,12 +1,16 @@
 h1{
     color: darkgray;
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
     padding: 1%;
     text-align: center;
 }
 
 .contenedor{
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
     
 }
 

@@ -1,12 +1,16 @@
 h1{
     color: darkgray;
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
     padding: 1%;
     text-align: center;
 }
 
 .contenedor{
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 55%, rgba(136,132,132,1) 97%);
     
 }
 
@@ -21,8 +25,13 @@ h1{
 .graf1{
     width: 40%;
     padding: 1%;
-    margin-left: 2%;
+    margin-left: 10%;
     margin-bottom: 1%;
+}
+
+div.graf1:hover{
+    transform: translateX(center);
+    transform: scale(1.5);
 }
 
 .graf2{
@@ -32,11 +41,20 @@ h1{
     margin-bottom: 1%;
 }
 
+div.graf2:hover{
+    transform: translateX(center);
+    transform: scale(1.5);
+}
 .graf3{
     width: 40%;
     padding: 1%;
-    margin-left: 2%;
+    margin-left: 10%;
     margin-bottom: 1%;
+}
+
+div.graf3:hover{
+    transform: translateX(center);
+    transform: scale(1.5);
 }
 
 .graf4{
@@ -44,6 +62,11 @@ h1{
     padding: 1%;
     margin-left: 2%;
     margin-bottom: 1%;
+}
+
+div.graf4:hover{
+    transform: translateX(center);
+    transform: scale(1.5);
 }
 
 .graf5{
@@ -54,4 +77,8 @@ h1{
     
 }
 
+div.graf5:hover{
+    transform: translateX(center);
+    transform: scale(1.5);
+}
 
