@@ -34,6 +34,10 @@ div div{
     display: none;
 }
 
+h6{
+    color: white;
+}
+
 
 
 .opciones li a{
@@ -51,6 +55,8 @@ div div{
 .menu:hover li{
     display: block;
 }
+
+
 /*
 .opc{
     list-style: none;

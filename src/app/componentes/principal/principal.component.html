@@ -1,23 +1,24 @@
-<div id="foto"><img src="../assets/imag1.jpg" alt="foto" >
+<div id="foto"><img [src]="miDatoh.MiFoto" alt="foto" >
     
 </div>
 <div id="presentacion">
     
-    <h3 id="slogan">Soy Ing. Electronico y Tec. Electromecanico</h3>
+    <h3 id="slogan">{{miDatoh.Slogan}}</h3>
     <br>
     <br>
-    <h4 id="frase">"EL soporte tecnico que la industria necesita"</h4>
+    <h4 id="frase">{{miDatoh.Frase}}</h4>
     <br>
     <br>
-    <h1 id="nombre" >Antonio Rivero</h1>
+    <h1 id="nombre" >{{miDatoh.Nombre}}</h1>
     <br>
-    <h5 id="especialidad">Especialista en: <br>
+    <h5 id="especialidad">{{miDatoh.Especialidad}} <br>
         <ul>
-            <li>Control de Ascensores</li>
+            <li *ngFor="let items of miDatoh.Experto">{{items.rubro}}</li>
+            <!--<li>Control de Ascensores</li>
             <li>Control de Motores Electricos</li>
             <li>Control Industrial</li>
             <li>Automatizacion</li>
-            <li>y mas...</li>
+            <li>y mas...</li>-->
         </ul>
     </h5>
     <br>

@@ -1,29 +1,47 @@
-<footer id="redes" >
-
-    <a  id="correo" href="mailto:arivero@copetel.com.ar">
-        <img src="assets/correo.jpg" alt="email">
+<!--<footer id="redes" *ngFor="let red of miDatoh.RedesSoc">
+    <a   [href]="red.direccion">
+        <img  [id]="red.idr"  [src]="red.Logo"  [alt]="red.altr">
     </a>
-    
-    <a 
-        href="https://instagram.com/antoniorivero1104?gshid=YmMyMTA2M2Y=">
-        <img id="red1" src="assets/Instagramrbn.png"  alt="instagram">   
-    </a>
-
-    <a 
-        href="https://www.facebook.com/antonio.rivero.5076?mibextid=ZbWKwL">
-        <img id="red2" src="assets/facebookrbn.png"  alt="Facebook">   
-    </a>
-
-    <a 
-        href="https://www.linkedin.com/in/antonio-rivero-4a8b3a69">
-        <img id="red3" src="assets/linkedinrbn.png"  alt="linkedin">   
-    </a>
-
     <a >
-        <img id="whatsapp" src="assets/whatsappbn.png"  alt="whatsapp"> <h5>2235443344</h5>
+        <img [id]="miDatoh.idw" [src]="miDatoh.logwhatsapp"   [alt]="miDatoh.altw" ><h5>{{miDatoh.numero}}</h5>
     </a>
-    <br><br>
-    <p class="autor">Autor: Antonio Rivero</p>
+    <br>
+    <br>
+    <p class="autor">{{miDatoh.Autor}}</p>
 
-</footer>
+</footer>-->
+
+
+<footer id="redes" >
+        <div id="redes">
+            <a   [href]="miDatoh.direccorreo">
+                <img  id="correo"  [src]="miDatoh.Logoc"   alt="email">
+            </a>
+            
+            <a 
+            [href]="miDatoh.direcr1">
+                <img id="red1" [src]="miDatoh.Logor1"  alt="instagram">   
+            </a>
+
+            <a 
+            [href]="miDatoh.direcr2">
+                <img id="red2" [src]="miDatoh.Logor2"  alt="Facebook">   
+            </a>
+
+            <a 
+            [href]="miDatoh.direcr3">
+                <img id="red3" [src]="miDatoh.Logor3"  alt="linkedin">   
+            </a>
+            <a  > 
+                <img id="whatsapp" [src]="miDatoh.Logow" alt="whatsapp" >
+            </a>
+            <h5>  {{miDatoh.numero}}</h5>
+        </div>
+        <p class="autor">{{miDatoh.autor}}</p>
+        
+            
+
+            
+
+</footer>  
 

@@ -37,18 +37,28 @@ div.graf:hover{
     margin-bottom: 1%;
 }
 
-.caja2{
-    display:flex;
+.caja2 p{
+    text-align: justify;
+    color: lightskyblue;
     width: 50%;
-    margin-left: 20%;
+    margin-left: 30%;
+    
 }
 
-div.video1{
-   text-align: center;
+.V{
+
+  /* text-align: center;*/
+   margin-left: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10%;
+   border-style: groove;
+   border-color: white;
 }
 
 h6{
-    color: darkgray;
+    color: lightskyblue;
     text-align: center;
 }
 

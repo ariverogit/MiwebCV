@@ -75,6 +75,7 @@ div.graf4:hover{
     margin-left: 25%;
     margin-bottom: 1%;
     
+    
 }
 
 div.graf5:hover{
@@ -82,3 +83,8 @@ div.graf5:hover{
     transform: scale(1.5);
 }
 
+img{
+    border-radius: 10%;
+   border-style: groove;
+   border-color: white;
+}

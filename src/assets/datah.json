@@ -1,0 +1,144 @@
+{
+
+    "Logo":"../assets/logo.jpg",
+    "LogMenu":"../assets/menu.jpg",
+    
+    "enlaces":[
+         {
+        "ruta" : "/tareas",   
+        "texto":"Servicios"},
+        {"ruta"  : "/trayectoria",   
+        "texto":"Experiencia"},
+        {
+            "ruta": "/habilidades" ,
+            "texto": "Habilidades"
+        },
+        {
+            "ruta": "/proyectos" ,
+            "texto":"Imagenes y Videos"
+        },
+        {
+            "ruta": "/estudios",
+            "texto": "Formacion Academica"
+        },
+        {
+            "ruta": "/principal",
+            "texto":"Inicio"
+        }
+    ],
+
+    "MiFoto":"../assets/imag1.jpg",
+    "Slogan":"Soy Ing. Electronico y Tec. Electromecanico",
+    "Frase": "EL soporte tecnico que la industria necesita",
+    "Nombre":"Antonio Rivero",
+    "Especialidad":"Especialista en:",
+    "Experto":[ 
+        {"rubro":"Control de Ascensores"},
+        {"rubro":"Control de Motores Electricos"},
+        {"rubro":"Control Industrial"},
+        {"rubro":"Automatizacion"},
+        {"rubro":"y mas..."}
+    ],
+
+    "TituloMMedia":"Mis trabajos en Imagenes y Videos",
+
+    "Fotos":[
+        {
+            "imagen":"../assets/MSIP.jpg",
+            "texto":"Maquina Gearless"
+        },
+        {
+            "imagen":"../assets/Gab2.jpg",
+            "texto":"Gabinetes, Tableros Industrales"
+        },
+        {
+            "imagen":"../assets/Modern.jpg",
+            "texto":"Modernizacion de instalaciones Industriales"
+        },
+        {
+            "imagen":"../assets/Wireless.jpg",
+            "texto":"Equipos para ensayo en laboratorio <br> oprados por celular"
+        },
+
+        {
+            "imagen":"../assets/Spincoater.jpg",
+            "texto":"Control de Motores de CA, CC, Paso a paso, brushless,etc"
+        }
+    ],
+
+    "Videos":[
+        {
+            "titvid":"Filmcasting - Lab Electronica-INTEMA- CONICET:",
+            "srcv":"../assets/filmcasting.mp4",
+            "descripcionv": "Equipo de laboratorio que lo que hace es arrastrar una nuestra para analizar su viscosidad o adherencia o alguna otra propiedad del material, tiene un movimiento lineal con limites en los extremos que detienen el movimiento. Filmcasting es una técnica que se usa mucho en investigación de materiales Se opera por bluetooth con una aplicación realizada con MIT inventor y una placa arduino."
+
+
+        },
+
+        {
+            "titvid":"Motor sincrinico a imanes permanentes multipolar",
+            "srcv":"../assets/Motorsincrónico.mp4",
+           "descripcionv": "Vídeo que primero da un resumen de algunos de mis trabajos y luego muestra la diferencia del motor sincrónico a imanes permanentes en comparación a otro tipo de accionamiento de maquinas de tracción, en este caso con un motor de continua. La maquina a destacar es la que se encuentra a la derecha en la imagen de color verde, donde ya de observa la diferencia de tamaño, fue diseñada y calculada para un ascensor que puede traccionar 1400 Kg a 90 m/min con suspensión 2 a 1. Fue fabricada mientras trabaje en  VOLTA BUENOS AIRES SRL, diseñada Mecanicamente por la mpresa y la parte elecrtomagnetica en si, calculada por el Ing. Antonio Rivero, existen mas de 50 maquinas instaladas en el pais por nosotros Este video intenta explicar las bondades de la actualización tecnológica como forma de optimizar sistemas, aprovechando los últimos avances de la ingeniería."
+
+
+        }
+    ],
+           
+    "TitGraf":"Habilidades Duras y Blandas",
+     "Hab1":"../assets/Ingles.jpg",
+     "Hab2":"../assets/Automat.jpg",
+     "Hab3":"../assets/Program.jpg",
+     "Hab4":"../assets/Software.jpg",
+     "Hab5":"../assets/Blandas.jpg",
+
+     "TitPpal": "Formacion Academica",
+
+     "Estudios":[
+         
+        {
+           
+            "Establecimiento": "Facultad de Ingenieria-Universidad nacional de Mar del Plata-Argentina ",
+            "Titulacion":"Título de Ingeniero Electrónico y matriculado en el colegio de ingenieros de la Pcia. De Bs. As., Mat. Nº 49637  "
+        },
+
+        {
+            "Establecimiento":"E.E.T. Nº 1 Com. L. Piedra Buena Mar del Plata, ARG. ",
+            "Titulacion": "Título de Técnico Electromecánico."
+        },
+        {
+            "Establecimiento":"Univ. Tecnológica Nac. MdP Mar del Plata, ARG.",
+             "Titulacion":"Título de Profesor en Disciplinas Industriales, Formación Docente y varios cursos de capacitación docente."
+        }
+
+     ],
+  
+    "direccorreo":"mailto:arivero@copetel.com.ar",
+    "Logoc":"assets/correo.jpg",
+    "direcr1":"https://instagram.com/antoniorivero1104?gshid=YmMyMTA2M2Y=",
+    "Logor1":"assets/Instagramrbn.png",
+    "direcr2":"https://www.facebook.com/antonio.rivero.5076?mibextid=ZbWKwL",
+    "Logor2":"assets/facebookrbn.png",
+    "direcr3":"https://www.linkedin.com/in/antonio-rivero-4a8b3a69",
+    "Logor3":"assets/linkedinrbn.png",
+    "Logow":"assets/whatsappbn.png",
+    "Autor":"Autor: Antonio Rivero",
+    "numero":"2235443344"
+     
+       
+           
+        
+
+        
+    
+
+    
+        
+    
+        
+       
+}
+
+
+        
+    
+

@@ -1,10 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { DatoshtmlService } from '../../servicios/datoshtml.service';
 
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
   styleUrl: './proyectos.component.css'
 })
-export class ProyectosComponent {
+export class ProyectosComponent implements OnInit{
+  miDatoh:any;
+  
+  constructor(private datosh:DatoshtmlService){
+
+  }
+  
+  ngOnInit(): void {
+    this.datosh.obtenerDatos().subscribe(datah=>{
+      console.log(datah);
+      this.miDatoh=datah;
+      
+    });
+  }
 
 }

@@ -1,10 +1,25 @@
 <div class="contenedor">
         
-    <h2>Formacion Academica   </h2>
+    <h2>{{miDatoh.TitPpal}}  </h2>
     
 
 </div>
+<div class="contenedor" *ngFor="let est of miDatoh.Estudios">
+    <div class="div-1">
+        <h6>
+            {{est.Establecimiento}}
+        </h6>
 
+    </div>
+
+    <div class="div-2">
+        <h5>
+            {{est.Titulacion}}
+        </h5>
+
+    </div>
+</div>
+<!--
 <div class="contenedor">
         
    
@@ -41,7 +56,7 @@
     <div class="div-1">
         <h6>Univ. Tecnológica Nac. MdP Mar del Plata, ARG.
             <br>
-            "Puesto: Operador y Programador EIA-ISO de Centro de Mecanizado a control numérico MAZAK V-5 y MAZAK V-12.</h6>
+            </h6>
     </div>
 
     <div class="div-2">
@@ -51,7 +66,7 @@
     </div>
     
     
-
+-->
 
 
 

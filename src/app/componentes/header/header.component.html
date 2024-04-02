@@ -1,6 +1,6 @@
 
 <div id="header">
-    <div id="logo"><img   src="../assets/logo.jpg" alt="Logo" /></div>
+    <div id="logo"><img   [src]="miDatoh.Logo"  alt="Logo" /></div>
     <!--<div id="menu">
         
         <a class="opc"><img id="men" src="../assets/menu.jpg" alt="Menu"    />
@@ -14,14 +14,17 @@
             </ul>
         </a>
     </div>-->
-    <div class="menu"><img id="men" src="../assets/menu.jpg" alt="Menu"    />
+    <div class="menu"><img id="men" [src]="miDatoh.LogMenu" alt="Menu"    />
         <ul class="opciones">
-                <li><a routerLink="/tareas">Servicios</a></li>
+
+           <li *ngFor="let enlace of miDatoh.enlaces"><a routerLink={{enlace.ruta}}>{{enlace.texto}}</a></li>
+            <!-- <li><a routerLink="/tareas">Servicios</a></li>
                 <li><a routerLink="/trayectoria">Experiencia</a></li>
                 <li><a routerLink="/habilidades">Habilidades</a></li>
                 <li><a routerLink="/proyectos">Imagenes y Videos</a></li>
                 <li><a routerLink="/estudios">Formacion Academica</a></li>
-                <li><a routerLink="/principal">Inicio</a></li>
+                <li><a routerLink="/principal">Inicio</a></li>-->
+                
                 
         </ul>
         

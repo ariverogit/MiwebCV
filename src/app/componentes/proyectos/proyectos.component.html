@@ -1,7 +1,13 @@
 <div class="contenedor">
-    <h1>Mis trabajos en Imagenes y Videos <br></h1>
+    <h1>{{miDatoh.TituloMMedia}} <br></h1>
         <div class="caja1">
-            <div class="graf">
+            <div class="graf" *ngFor="let vista of miDatoh.Fotos">
+                <img id="men" [src]="vista.imagen" alt="Menu"/>
+                <p>{{vista.texto}}</p>
+
+            </div>
+        </div>    
+            <!--<div class="graf">
                 <img  src="../assets/MSIP.jpg"   alt="Menu"    />
                 <p>Maquina Gearless</p>
             </div>
@@ -22,14 +28,35 @@
                 <img  src="../assets/Spincoater.jpg" alt="Menu"    />
                 <p>Control de Motores de CA, CC, Paso a paso, brushless,etc</p>
             </div>
-        </div>
+        </div>-->
 
         <div class="caja2">
+
+            <div class="video1"  *ngFor="let ver of miDatoh.Videos">
+                <h6>{{ver.titvid}}</h6>
+                <br>
+                <video  class="V"  controls [src]="ver.srcv"></video>
+                <br>
+                <p>{{ver.descripcionv}}</p>
+                <br>
+                <br>
             
-            <div class="video1">
-                        <h6>Filmcasting - Lab Electronica-INTEMA- CONICET:
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IzHQ55EWwyY?si=1Oc2paWKpIpYYqrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!--<div class="video1">
+                        
+                
+                
+                        <h6>
+                           Filmcasting - Lab Electronica-INTEMA- CONICET:
+                        
+                          
                         </h6>
+                        <br>
+                        <video 
+                            src="../assets/filmcasting.mp4" controls>
+                            <a href="../assets/filmcasting.mp4">enlace del video</a>.
+                        </video>
+                        
                         
                         <br>
                         <p>Equipo de laboratorio que lo que hace es arrastrar una nuestra para analizar
@@ -41,18 +68,16 @@
                             
                         </p>
             
-            </div>
-        </div>
-
-        <br>
-        <br>
-
-        <div class="caja2">
-            <div class="video1">
-                <h6>Motor sincrinico a imanes permanentes multipolar
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/O4l1FZ0tDAg?si=rIj1FBddyoqpxtyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br>
+                <br>
+                <h6>
+                    Motor sincrinico a imanes permanentes multipolar
                 </h6>
+                <br>
+                        <video 
+                           src="../assets/Motorsincrónico.mp4" controls>
+                           <a href="../assets/Motorsincrónico.mp4">enlace del video</a>.
+                        </video>
                 <br>
                 <p>Vídeo que primero da un resumen de algunos de mis trabajos y luego muestra la diferencia del motor sincrónico a imanes permanentes
                     en comparación a otro tipo de accionamiento de maquinas de tracción, en
@@ -67,37 +92,13 @@
                     Este video intenta explicar las bondades de la actualización tecnológica
                     como forma de optimizar sistemas, aprovechando los últimos avances de la
                     ingeniería.
-                    
-                    
-                    
                 </p>
     
-    </div>
+            </div>-->
 
         </div>
 
-        <!--
-
-            <div class="video2">
-                    
-                    <br>
-                        <p>Vídeo que muestra la diferencia del motor sincrónico a imanes permanentes
-                            en comparación a otro tipo de accionamiento de maquinas de tracción, en
-                            este caso con un motor de continua.
-                            La maquina a destacar es la que se encuentra a la derecha en la imagen de
-                            color verde, donde ya de observa la diferencia de tamaño, fue diseñada y
-                            calculada para un ascensor que puede traccionar 1400 Kg a 90 m/min con
-                            suspensión 2 a 1.
-                            Fue fabricada por VOLTA BUENOS AIRES SRL, diseñada por Lino de la Torre y
-                            calculada por el Ing. Antonio Rivero, existen mas de 50 maquinas instaladas
-                            en el pais por nosotros
-                            Este video intenta explicar las bondades de la actualización tecnológica
-                            como forma de optimizar sistemas, aprovechando los últimos avances de la
-                            ingeniería.
-                        </p>
-                
-                </div>
-        -->
+        
     
     
 </div>
